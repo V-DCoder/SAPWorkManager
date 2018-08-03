@@ -7,6 +7,7 @@
     <variable
         name="workorder"
         type="com.sap.workmanager.model.WorkOrderResponse"/>
+
     </data>
 
     <LinearLayout
@@ -19,7 +20,7 @@
             android:id="@+id/left_pane"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.3"
+            android:layout_weight="0.4"
             android:orientation="vertical">
 
             <TextView
@@ -44,7 +45,11 @@
                 android:id="@+id/rv_wo_list_lp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layoutManager="LinearLayoutManager" />
+                app:listItems="@{workorder.getSheet1()}"
+                app:itemLayout="@{@layout/order_list_item}"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                app:itemBindingVariableID="@{workorder.getBindingVeriable()}"
+                />
         </LinearLayout>
 
         <View
@@ -57,6 +62,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.7"
+
             android:orientation="vertical"></LinearLayout>
 
     </LinearLayout>

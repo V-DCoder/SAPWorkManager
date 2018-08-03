@@ -1,20 +1,15 @@
 package com.sap.workmanager;
 
-import android.content.res.AssetManager;
 import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.google.gson.Gson;
 import com.sap.workmanager.databinding.ActivityMainBinding;
-import com.sap.workmanager.model.Operation;
-import com.sap.workmanager.model.Sheet1;
 import com.sap.workmanager.model.WorkOrderResponse;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             obj.getSheet1();
             ActivityMainBinding binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
             binding.setVariable(BR.workorder,obj);
+
 
 
         } catch (IOException e) {
