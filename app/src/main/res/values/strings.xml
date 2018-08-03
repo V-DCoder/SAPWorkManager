@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SAP Work Manager</string>
+    <string name="work_order">Work Orders</string>
+    <string name="total_format">%d total</string>
+</resources>
