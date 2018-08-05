@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="operation"
+            type="com.sap.workmanager.model.Operation" />
+
+        <variable
+            name="view"
+            type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/gray_background"
+            android:padding="4dp"
+            android:text="@{@string/total_format(operation.getWorkDetails().size())}"
+
+            android:textColor="@color/gray_text"
+            tools:text="total 5" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            app:itemBindingVariableID="@{operation.getNotesOrderDetails()}"
+            app:itemLayout="@{@layout/order_details}"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            app:listItems="@{operation.getWorkDetails()}"
+            app:onItemClickListerActivity="@{null}" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/work_order_notes"
+
+            android:textColor="@color/colorAccent" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+
+
+            app:itemBindingVariableID="@{operation.getNotesStrBidingId()}"
+            app:itemLayout="@{@layout/work_order_notes_item}"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            app:listItems="@{operation.getWork_notes()}"
+            app:onItemClickListerActivity="@{null}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

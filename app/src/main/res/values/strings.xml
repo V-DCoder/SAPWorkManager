@@ -2,4 +2,6 @@
     <string name="app_name">SAP Work Manager</string>
     <string name="work_order">Work Orders</string>
     <string name="total_format">%d total</string>
+    <string name="work_order_id">Work Order %s</string>
+    <string name="work_order_notes">Work Order Notes</string>
 </resources>

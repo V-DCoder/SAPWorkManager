@@ -12,13 +12,15 @@
         <variable
             name="utils"
             type="com.sap.workmanager.Utils" />
+        <variable
+            name="activity"
+            type="com.sap.workmanager.MainActivity"/>
     </data>
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:background="@color/gray_background">
+        android:background="@{sheet.selected == true ? @color/card_selected_blue : @color/gray_background}">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,7 +50,7 @@
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@mipmap/ic_launcher_round" />
+                    android:src="@drawable/yellodown" />
 
                 <LinearLayout
                     android:layout_width="0dp"

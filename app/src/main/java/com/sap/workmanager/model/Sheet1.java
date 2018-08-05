@@ -1,6 +1,8 @@
 
 package com.sap.workmanager.model;
 
+import android.databinding.ObservableArrayList;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -30,6 +32,20 @@ public class Sheet1 {
     @SerializedName("Operation")
     @Expose
     private Operation operation;
+    private  boolean isSelected;
+
+    @SerializedName("Details")
+    @Expose
+    private Operation Details;
+    @SerializedName("Components")
+    @Expose
+    private Operation Components;
+    @SerializedName("Object")
+    @Expose
+    private Operation Object;
+    @SerializedName("Attachments")
+    @Expose
+    private Operation Attachments;
 
     /**
      * No args constructor for use in serialization
@@ -59,6 +75,14 @@ public class Sheet1 {
         this.startDate = startDate;
         this.endDate = endDate;
         this.operation = operation;
+    }
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
     }
 
     public String getOrderNo() {
@@ -125,4 +149,43 @@ public class Sheet1 {
         this.operation = operation;
     }
 
+    public String getaPRIO() {
+        return aPRIO;
+    }
+
+    public void setaPRIO(String aPRIO) {
+        this.aPRIO = aPRIO;
+    }
+
+    public Operation getDetails() {
+        return Details;
+    }
+
+    public void setDetails(Operation details) {
+        Details = details;
+    }
+
+    public Operation getComponents() {
+        return Components;
+    }
+
+    public void setComponents(Operation components) {
+        Components = components;
+    }
+
+    public Operation getObject() {
+        return Object;
+    }
+
+    public void setObject(Operation object) {
+        Object = object;
+    }
+
+    public Operation getAttachments() {
+        return Attachments;
+    }
+
+    public void setAttachments(Operation attachments) {
+        Attachments = attachments;
+    }
 }

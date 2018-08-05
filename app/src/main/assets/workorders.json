@@ -1,372 +1,243 @@
 {"Sheet1": [
-{
-"Order_no": "000000200000",
-"Order_type": "PM01",
-"ord_Desc": "Repair of Pump",
-"APRIO": "High",
-"Ord_date": "20160506",
-"Start_date": "20160506",
-"End_date": "20160506",
-"Operation" : {
-"Oper_no": "0010",
-"Oper_desc": "Repair of Pump",
-"Work_cntr": "MECHANIK"
+    {
+      "Order_no": "000000200000",
+      "Order_type": "PM01",
+      "ord_Desc": "Repair of Pump",
+      "APRIO": "High",
+      "Ord_date": "20160506",
+      "Start_date": "20160506",
+      "End_date": "20160506",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "Repair of Pump",
+        "Work_cntr": "MECHANIK",
+        "Work_notes": [
+          "Monthly Pump Inspection",
+          "Mobile status set to received"
+        ],
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      },
+      "Details": {
+        "Oper_no": "0010",
+        "Oper_desc": "Repair of Pump",
+        "Work_cntr": "MECHANIK",
+        "Work_notes": [
+          "Monthly Pump Inspection",
+          "Mobile status set to received"
+        ],
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      },
+      "Components": {
+        "Oper_no": "0010",
+        "Oper_desc": "Repair of Pump",
+        "Work_cntr": "MECHANIK",
+        "Work_notes": [
+          "Monthly Pump Inspection",
+          "Mobile status set to received"
+        ],
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      },
+      "Object": {
+        "Oper_no": "0010",
+        "Oper_desc": "Repair of Pump",
+        "Work_cntr": "MECHANIK",
+        "Work_notes": [
+          "Monthly Pump Inspection",
+          "Mobile status set to received"
+        ],
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      },
+      "Attachments": {
+        "Oper_no": "0010",
+        "Oper_desc": "Repair of Pump",
+        "Work_cntr": "MECHANIK",
+        "Work_notes": [
+          "Monthly Pump Inspection",
+          "Mobile status set to received"
+        ],
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      }
+    },
+    {
+      "Order_no": "000000200020",
+      "Order_type": "PM01",
+      "ord_Desc": "Test",
+      "Ord_date": "20160513",
+      "Start_date": "20160513",
+      "End_date": "20160513",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "Test/1",
+        "Work_cntr": "MECHANIK",
+        "WorkDetails": [
+          {
+            "Oper_desc": "Inspect Valves",
+            "Oper_no": "0010",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "9/14/2013 11:00 AM",
+            "Wrk_cntr": "MECHANK"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          },
+          {
+            "Oper_desc": "Inspect Tire",
+            "Oper_no": "0011",
+            "End_date": "10/14/2013 10:00 AM",
+            "Start_date": "10/14/2013 11:00 AM",
+            "Wrk_cntr": "MRF"
+          }
+        ]
+      }
+    },
+    {
+      "Order_no": "000000200040",
+      "Order_type": "PM01",
+      "ord_Desc": "First Work Order",
+      "APRIO": "Low",
+      "Ord_date": "20180724",
+      "Start_date": "20180724",
+      "End_date": "20180724",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "Test/1",
+        "Work_cntr": "MECHANIK"
+      }
+    },
+    {
+      "Order_no": "000000300040",
+      "Order_type": "PM01",
+      "ord_Desc": "First Work Order",
+      "APRIO": "",
+      "Ord_date": "20180724",
+      "Start_date": "20180724",
+      "End_date": "20180724",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "tes/2",
+        "Work_cntr": "MECHANIK"
+      }
+    },
+    {
+      "Order_no": "000000200041",
+      "Order_type": "PM01",
+      "ord_Desc": "Second Work Order",
+      "APRIO": "Very High",
+      "Ord_date": "20180724",
+      "Start_date": "20180725",
+      "End_date": "20180724",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "Test/1",
+        "Work_cntr": "MECHANIK"
+      }
+    },
+    {
+      "Order_no": "000000200057",
+      "Order_type": "PM01",
+      "ord_Desc": "Eight orders",
+      "APRIO": "",
+      "Ord_date": "20180718",
+      "Start_date": "20180719",
+      "End_date": "20180720",
+      "Operation": {
+        "Oper_no": "0010",
+        "Oper_desc": "tes/2",
+        "Work_cntr": "MECHANIK"
+      }
+    },
+    {
+      "Order_no": "000000200067",
+      "Order_type": "PM01",
+      "ord_Desc": "Eight orders",
+      "APRIO": "",
+      "Ord_date": "20180709",
+      "Start_date": "20180710",
+      "End_date": "20180711",
+      "Operation": {
+        "Oper_no": "0020",
+        "Oper_desc": "tes/3",
+        "Work_cntr": "MECHANIK"
+      }
+    }
+  ]
 }
-},
-{
-"Order_no": "000000200020",
-"Order_type": "PM01",
-"ord_Desc": "Test",
-"Ord_date": "20160513",
-"Start_date": "20160513",
-"End_date": "20160513",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200040",
-"Order_type": "PM01",
-"ord_Desc": "First Work Order",
-"APRIO": "Low",
-"Ord_date": "20180724",
-"Start_date": "20180724",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000300040",
-"Order_type": "PM01",
-"ord_Desc": "First Work Order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180724",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-},
-{
-"Order_no": "000000200041",
-"Order_type": "PM01",
-"ord_Desc": "Second Work Order",
-"APRIO": "Very High",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000400041",
-"Order_type": "PM01",
-"ord_Desc": "Second Work Order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200051",
-"Order_type": "PM01",
-"ord_Desc": "Second Work Order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200042",
-"Order_type": "PM01",
-"ord_Desc": "Third work order",
-"APRIO": "Medium",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200052",
-"Order_type": "PM01",
-"ord_Desc": "Third work order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200062",
-"Order_type": "PM01",
-"ord_Desc": "Third work order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-},
-{
-"Order_no": "000000200043",
-"Order_type": "PM01",
-"ord_Desc": "Fifth Work Order",
-"APRIO": "Low",
-"Ord_date": "20180724",
-"Start_date": "20180726",
-"End_date": "20180727",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-},
-{
-"Order_no": "000000200053",
-"Order_type": "PM01",
-"ord_Desc": "Fifth Work Order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180727",
-"End_date": "20180728",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200063",
-"Order_type": "PM01",
-"ord_Desc": "Fifth Work Order",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180729",
-"End_date": "20180730",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200044",
-"Order_type": "PM01",
-"ord_Desc": "sixth order status",
-"APRIO": "High",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200054",
-"Order_type": "PM01",
-"ord_Desc": "sixth order status",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180720",
-"End_date": "20180721",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200064",
-"Order_type": "PM01",
-"ord_Desc": "sixth order status",
-"APRIO": "",
-"Ord_date": "20180720",
-"Start_date": "20180719",
-"End_date": "20180720",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200065",
-"Order_type": "PM01",
-"ord_Desc": "seventh Orders",
-"APRIO": "Very High",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200045",
-"Order_type": "PM01",
-"ord_Desc": "seventh Orders",
-"APRIO": "",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200055",
-"Order_type": "PM01",
-"ord_Desc": "seventh Orders",
-"APRIO": "",
-"Ord_date": "20180719",
-"Start_date": "20180720",
-"End_date": "20180721",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200046",
-"Order_type": "PM01",
-"ord_Desc": "Seventh orders",
-"APRIO": "Low",
-"Ord_date": "20180724",
-"Start_date": "20180725",
-"End_date": "20180724",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200056",
-"Order_type": "PM01",
-"ord_Desc": "Seventh orders",
-"APRIO": "",
-"Ord_date": "20180716",
-"Start_date": "20180717",
-"End_date": "20180718",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200066",
-"Order_type": "PM01",
-"ord_Desc": "Seventh orders",
-"APRIO": "",
-"Ord_date": "20180710",
-"Start_date": "20180715",
-"End_date": "20180716",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200047",
-"Order_type": "PM01",
-"ord_Desc": "Eight orders",
-"APRIO": "Medium",
-"Ord_date": "20180724",
-"Start_date": "20180726",
-"End_date": "20180725",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "Test/1",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200057",
-"Order_type": "PM01",
-"ord_Desc": "Eight orders",
-"APRIO": "",
-"Ord_date": "20180718",
-"Start_date": "20180719",
-"End_date": "20180720",
-"Operation":{
-"Oper_no": "0010",
-"Oper_desc": "tes/2",
-"Work_cntr": "MECHANIK"
-}
-
-},
-{
-"Order_no": "000000200067",
-"Order_type": "PM01",
-"ord_Desc": "Eight orders",
-"APRIO": "",
-"Ord_date": "20180709",
-"Start_date": "20180710",
-"End_date": "20180711",
-"Operation":{
-"Oper_no": "0020",
-"Oper_desc": "tes/3",
-"Work_cntr": "MECHANIK"
-}
-
-}
-]}
